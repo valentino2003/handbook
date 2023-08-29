@@ -710,6 +710,16 @@ a:focus {
   color: #fbfcfd;
 }
 
+.container-name {
+  display: flex;
+  justify-content: space-between; /* Ini akan membuat elemen bersebelahan dengan jarak yang sama */
+}
+.box {
+  text-align: center; /* Ini untuk memusatkan teks jika diperlukan */
+  flex: 1; /* Ini akan membuat setiap box memiliki lebar yang sama */
+}
+
+
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
