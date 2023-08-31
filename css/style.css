@@ -719,6 +719,17 @@ a:focus {
   flex: 1; /* Ini akan membuat setiap box memiliki lebar yang sama */
 }
 
+.box-pic {
+  display: flex;
+  align-items: center; /* Tengah vertikal */
+  justify-content: center; /* Tengah horizontal */
+  margin-bottom: 20px;/* Untuk vertikal centering */
+}
+
+.box-pic img {
+  width: 30%; /* Sesuaikan lebar gambar sesuai kebutuhan */
+  margin-right: 10px; /* Margin antara gambar */
+}
 
 
 /* end footer section*/
